@@ -1,0 +1,15 @@
+{
+    "name": "NovaBoard",
+    "short_name": "NovaBoard",
+    "icons": [
+        {
+            "src": "android-chrome-192x192.png?v=bOM6YdwRb7",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#8d5454",
+    "background_color": "#8d5454",
+    "start_url": "http://novaboard.com",
+    "display": "standalone"
+}

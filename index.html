@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>k18-exam</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png?v=bOM6YdwRb7">
+	<link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png?v=bOM6YdwRb7">
+	<link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png?v=bOM6YdwRb7">
+	<link rel="manifest" href="./favicons/site.webmanifest?v=bOM6YdwRb7">
+	<link rel="mask-icon" href="./favicons/safari-pinned-tab.svg?v=bOM6YdwRb7" color="#231aa3">
+	<link rel="shortcut icon" href="./favicons/favicon.ico?v=bOM6YdwRb7">
+	<meta name="apple-mobile-web-app-title" content="NovaBoard">
+	<meta name="application-name" content="NovaBoard">
+	<meta name="msapplication-TileColor" content="#2d89ef">
+	<meta name="msapplication-config" content="./favicons/browserconfig.xml?v=bOM6YdwRb7">
+	<meta name="theme-color" content="#8d5454">
+
+	<link rel="stylesheet" href="fonts/fonts.css">
+	<link rel="stylesheet" href="css/swiper.css">
+	<link rel="stylesheet" href="css/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+	<!-- Меню сайта -->
+
+	<div class="header">
+		<div class="header__content">
+			<ul class="header__list">
+				<li class="header__item"><a class="header__link header__link--is-active" href="#">Главная</a></li>
+				<li class="header__item"><a class="header__link" href="#">О компании</a></li>
+				<li class="header__item"><a class="header__link" href="#">Вакансии</a></li>
+				<li class="header__item"><a class="header__link" href="#">Продукция</a></li>
+				<li class="header__item"><a class="header__link" href="#">Фотогалерея</a></li>
+				<li class="header__item"><a class="header__link" href="#">Новости</a></li>
+				<li class="header__item"><a class="header__link" href="#">Статьи</a></li>
+				<li class="header__item"><a class="header__link" href="#">Контакты</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Блок со слайдером -->
+
+	<div class="slider">
+		<div class="slider__content">
+
+			<div class="site">
+				<a class="site__link" href="#">
+					<img class="site__img" src="img/logo.jpg" alt="logo">
+				</a>
+			</div>
+			
+			<div class="footer-contacts">
+				<div class="footer-contacts__title">
+					<p class="footer-contacts__text">Мы в социальных сетях</p>
+					<a class="footer-contacts__link" target=_blank href="https://www.instagram.com/wezom.company/"><img class="footer-contacts__icon" src="img/in.jpg" alt="in"></a>
+					<a class="footer-contacts__link" target=_blank href="https://vk.com/kursywezom"><img class="footer-contacts__icon" src="img/vk.jpg" alt="vk"></a>
+				</div>
+			
+				<div class="footer-contacts__number">
+					<a class="footer-contacts__link" href="tel:+380552314410">тел:+38(0552)314-410,</a>
+					<a class="footer-contacts__link" href="tel:314403">314-403;</a>
+					<a class="footer-contacts__link" href="tel:+380552359214">факс:+38(0552)359-214</a>
+					<a class="footer-contacts__link" href="mailto:info@penoboard.com">e-mail:info@penoboard.com</a>
+
+					<form class="search">
+						<input class="search__field" type="search" name="search">
+						<input class="search__button" type="submit">
+					</form>
+				</div>
+			</div>
+
+			<!-- Slider main container -->
+			<div class="swiper-container">
+			    <!-- Additional required wrapper -->
+			    <div class="swiper-wrapper">
+			        <!-- Slides -->
+			        <div class="swiper-slide">
+			        	<img class="swiper-slide__img" src="img/kherson.jpg" alt="">
+			        	<div class="swiper-slide__content">
+							<p class="swiper-slide__title">Cегодня инновация -<br> завтра необходимость</p>
+							<p class="swiper-slide__subtitle">Энергосбережение нового поколения</p>
+						</div>
+			        </div>
+			        <div class="swiper-slide">
+			        	<img class="swiper-slide__img" src="img/kakhovka.jpg" alt="">
+			        	<div class="swiper-slide__content">
+							<p class="swiper-slide__title">Cегодня инновация -<br> завтра необходимость</p>
+							<p class="swiper-slide__subtitle">Энергоэффективные технологии</p>
+						</div>
+			        </div>
+			        <div class="swiper-slide">
+			        	<img class="swiper-slide__img" src="img/odessa.jpg" alt="">
+			        	<div class="swiper-slide__content">
+							<p class="swiper-slide__title">Сегодня инновация -<br> завтра необходимость</p>
+							<p class="swiper-slide__subtitle">Экономный дом</p>
+						</div>
+			        </div>
+			        <div class="swiper-slide">
+			        	<img class="swiper-slide__img" src="img/dnieper.jpg" alt="">
+			        	<div class="swiper-slide__content">
+							<p class="swiper-slide__title">Сегодня инновация -<br> завтра необходимость</p>
+							<p class="swiper-slide__subtitle">Энергосберегающие, модульные дома</p>
+						</div>
+			        </div>
+			        <div class="swiper-slide">
+			        	<img class="swiper-slide__img" src="img/kiev.jpg" alt="">
+			        	<div class="swiper-slide__content">
+							<p class="swiper-slide__title">Сегодня инновация -<br> завтра необходимость</p>
+							<p class="swiper-slide__subtitle">Энергосберегающие дома в Украине</p>
+						</div>
+			        </div>
+			    </div>
+			    <!-- If we need pagination -->
+			    <div class="swiper-pagination"></div>
+
+			    <!-- If we need navigation buttons -->
+			    <div class="swiper-button-prev"></div>
+			    <div class="swiper-button-next"></div>
+
+			</div>
+			
+			<div class="swiper-decorate">
+				<img calss="swiper-decorate__img" src="img/bottom.png" alt="">
+			</div>
+
+		</div>
+	</div>
+
+	<!-- Блок с Видео -->
+
+	<div class="video">
+		<div class="video__content">
+			
+			<div class="video__site">
+				<img class="video__img" src="img/nova-board.png" alt="">
+			</div>
+
+			<h1 class="video__title">Экструдированный пенополистирол</h1>
+
+			<div class="video__youtube">
+				<iframe class="youtube__frame" width="572" height="320" src="https://www.youtube.com/embed/P5csD0SX8jI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+
+			<div class="video__decorate">
+				<img class="video__decorate-shadow" src="img/bottom-video.png" alt="">
+			</div>
+
+			<div class="video__text">
+				<p>Многолетний опыт применения экструдированного пенополистирола в различных отраслях строительства доказывает <br>высокую эффективность его использования. Наша компания производит экструдированный пенополистирол на <br>высококачественном европейском оборудовании, соблюдая мировые стандарты качества.</p>
+
+				<p>Торговая марка <b>NOVABOARD</b> много лет на украинском рынке и за это время мы не только вышли на лидирующие позиции, <br>но и доказали, что NOVABOARD– это гарантия качества, проверенная временем. Наш бренд - это наша репутация.<br> 
+				Мы завоевываем ее, легко справляясь с любыми задачами. Это понимают наши партнеры в<br> 
+				процессе взаимодействия с нами.</p>
+			</div>
+			
+			<div class="video__button">
+				<a class="video__link" href="https://penoboard.com/ru/stati/vidy-ekstrudirovannogo-penopolistirola" target="_blank">узнать подробнее</a>
+			</div>
+
+		</div>
+	</div>
+	
+	<!-- Блок Сфера применения -->
+
+	<div class="scope">
+		<div class="scope__content">
+			<div class="scope__title">Cфера применения</div>
+			
+			<div class="scope__left">
+				<div class="scope__color">
+					<div class="scope__text">Гражданское строительство</div>
+
+					<div class="scope__green">
+						<ul class="scope__list">
+							<li class="scope__item scope__item--cell-1"></li>
+							<li class="scope__item scope__item--cell-2"></li>
+							<li class="scope__item scope__item--cell-3">Жилые дома</li>
+						</ul>
+						<ul class="scope__list">
+							<li class="scope__item scope__item--cell-1"></li>
+							<li class="scope__item scope__item--cell-2"></li>
+							<li class="scope__item scope__item--cell-4">офисные здания</li>
+						</ul>
+						<ul class="scope__list">
+							<li class="scope__item scope__item--cell-1"></li>
+							<li class="scope__item scope__item--cell-2"></li>
+							<li class="scope__item scope__item--cell-5">торгово - развлекательные комплексы</li>
+						</ul>
+					</div>
+					
+					<div class="scope__bottom">
+						<div class="scope__img">
+							<div class="scope__subtitle">
+								<p class="scope__subtext">Novaboard</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="scope__right">
+				<div class="scope__color">
+					<div class="scope__text">Промышленное строительство</div>
+
+					<div class="scope__green">
+						<ul class="scope__list">
+							<li class="scope__item scope__item--cell-6">Cпортивные сооружения - ледовые арены</li>
+							<li class="scope__item scope__item--cell-7"></li>
+							<li class="scope__item scope__item--cell-8"></li>
+						</ul>
+						<ul class="scope__list">
+							<li class="scope__item scope__item--cell-9">Aнгары и склады</li>
+							<li class="scope__item scope__item--cell-10"></li>
+							<li class="scope__item scope__item--cell-8"></li>
+						</ul>
+						<ul class="scope__list">
+							<li class="scope__item scope__item--cell-6">Заводы и фабрики</li>
+							<li class="scope__item scope__item--cell-7"></li>
+							<li class="scope__item scope__item--cell-8"></li>
+						</ul>
+					</div>
+					
+					<div class="scope__bottom">
+						<div class="scope__img">
+							<div class="scope__subtitle">
+								<p class="scope__suptext">Novaboard</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<!-- Список «категорий» (6 ромбов) – статические блоки -->
+
+			<div class="static">
+				<ul class="static__list">
+					<li class="static__item">
+						<div class="static__rhombus static__rhombus--odd">
+							<img class="static__img static__img--odd" src="img/loggia-balconies.png" alt="loggia-balconies">
+						</div>
+						<div class="static__text static__text--odd">Балконы и<br> лоджии</div>
+					</li>
+					<li class="static__item">
+						<div class="static__rhombus static__rhombus--even">
+							<img class="static__img static__img--even" src="img/wall-facades.png" alt="wall-facades">
+						</div>
+						<div class="static__text static__text--even">Cтены и<br> фасады</div>
+					</li>
+					<li class="static__item">
+						<div class="static__rhombus static__rhombus--odd">
+							<img class="static__img static__img--odd" src="img/house-perimeter.png" alt="house-perimeter">
+						</div>
+						<div class="static__text static__text--odd">Периметр дома<br> и цоколь</div>
+					</li>
+					<li class="static__item">
+						<div class="static__rhombus static__rhombus--even">
+							<img class="static__img static__img--even" src="img/pitched-roof.png" alt="pitched-roof">
+						</div>
+						<div class="static__text static__text--even">Плоская и<br> скатная кровля</div>
+					</li>
+					<li class="static__item">
+						<div class="static__rhombus static__rhombus--odd">
+							<img class="static__img static__img--odd" src="img/cold-bridges.png" alt="cold-bridges">
+						</div>
+						<div class="static__text static__text--odd">Фундамент и<br> мостики холода</div>
+					</li>
+					<li class="static__item">
+						<div class="static__rhombus static__rhombus--even">
+							<img class="static__img static__img--even" src="img/floor-ceilings.png" alt="floor-ceilings">
+						</div>
+						<div class="static__text static__text--even">Полы и<br> потолки</div>
+					</li>
+				</ul>	
+			</div>
+
+		</div>
+	</div>
+
+	<!-- Блок технические характеристики -->
+	
+	<div class="technical">
+		<div class="technical__content">
+			<div class="technical__glass">
+				<div class="technical__suptitle">
+					<img class="technical__img" src="img/fav-xarakteristiki.png" alt="">
+					<span class="technical__green">Nova</span><span class="technical__blue">board</span>
+				</div>
+				<table class="technical___table">
+					<caption class="technical__caption">Технические характеристики</caption>
+					<tr>
+    					<th class="technical__line technical__line--cell-1">Течнические Характеристики</th>
+    					<th class="technical__line technical__line--cell-2">Норматив</th>
+    					<th class="technical__line technical__line--cell-3">Псб-20</th>
+    					<th class="technical__line technical__line--cell-4">Псб-30</th>
+    					<th class="technical__line technical__line--cell-5">Псб-40</th>
+    					<th class="technical__line technical__line--cell-6">Псб-50</th>
+    					<th>Псб-60-120</th>
+  					</tr>
+  					<tr>
+  						<td class="technical__line technical__line--cell-1">Плотность кг/м3</td>
+  						<td>ГОСТ15588-86</td>
+  						<td>30-32</td>
+  						<td>30-32</td>
+  						<td>30-32</td>
+  						<td>30-32</td>
+  						<td>30-32</td>
+  					</tr>
+  					<tr>
+  						<td class="technical__line technical__line--cell-1">Теплопроводность при 25°С (λ<sub>25</sub>) Вт/мК </td>
+  						<td>ГОСТ7076-99</td>
+  						<td>0,03</td>
+  						<td>0,03</td>
+  						<td>0,03</td>
+  						<td>0,03</td>
+  						<td>0,03</td>
+  					</tr>
+  					<tr>
+  						<td class="technical__line technical__line--cell-1">Теплопроводность (λ<sub>A</sub>) Вт/мК </td>
+  						<td>ГОСТ7076-99</td>
+  						<td>0,031</td>
+  						<td>0,031</td>
+  						<td>0,031</td>
+  						<td>0,031</td>
+  						<td>0,031</td>
+  					</tr>
+  					<tr>
+  						<td class="technical__line technical__line--cell-1">Теплопроводность (λ<sub>Б</sub>) Вт/мК </td>
+  						<td>ГОСТ7076-99</td>
+  						<td>0,032</td>
+  						<td>0,032</td>
+  						<td>0,032</td>
+  						<td>0,032</td>
+  						<td>0,032</td>
+  					</tr>
+  					<tr>
+  						<td class="technical__line technical__line--cell-1">Прочность на сжатие при 10% деформации, МПа</td>
+  						<td>ГОСТ15588-86</td>
+  						<td>0,2</td>
+  						<td>0,25</td>
+  						<td>0,41</td>
+  						<td>0,5</td>
+  						<td>0,6</td>
+  					</tr>
+  					<tr>
+  						<td class="technical__line technical__line--cell-1">Предел прочности при изгибе, МПа </td>
+  						<td>ГОСТ 15588-86</td>
+  						<td>0,25</td>
+  						<td>0,4</td>
+  						<td>0,4</td>
+  						<td>0,4 - 0,7</td>
+  						<td>0,4 - 0,7</td>
+  					</tr>
+  					<tr>
+  						<td class="technical__line technical__line--cell-1">Модуль упругости, МПА</td>
+  						<td></td>
+  						<td>15</td>
+  						<td>15</td>
+  						<td>18</td>
+  						<td>18</td>
+  						<td>18</td>
+  					</tr>
+  					<tr>
+  						<td class="technical__line technical__line--cell-1">Водопоглощение за 24 часа, % по объему </td>
+  						<td>ГОСТ 15588-86</td>
+  						<td>0,4</td>
+  						<td>0,4</td>
+  						<td>0,4</td>
+  						<td>0,4</td>
+  						<td>0,4</td>
+  					</tr>
+  					<tr>
+  						<td class="technical__line technical__line--cell-1">Паропроницаемость (μ) мг/м·ч·Па</td>
+  						<td>ГОСТ 25898-83</td>
+  						<td>0,008</td>
+  						<td>0,007</td>
+  						<td>0,007</td>
+  						<td>0,007</td>
+  						<td>0,008</td>
+  					</tr>
+  					<tr>
+  						<td class="technical__line technical__line--cell-1">Капилярное увлажнение</td>
+  						<td></td>
+  						<td>0</td>
+  						<td>0</td>
+  						<td>0</td>
+  						<td>0</td>
+  						<td>0</td>
+  					</tr>
+  					<tr>
+  						<td class="technical__line technical__line--cell-1">Коэфициент линейного теплового расширения</td>
+  						<td></td>
+  						<td>7x10-5</td>
+  						<td>7x10-5</td>
+  						<td>7x10-5</td>
+  						<td>7x10-5</td>
+  						<td>7x10-5</td>
+  					</tr>
+  					<tr>
+  						<td class="technical__line technical__line--cell-1">Пожарные характеристики</td>
+  						<td>ГОСТ 30244-94</td>
+  						<td>Г1</td>
+  						<td>Г1</td>
+  						<td>Г1</td>
+  						<td>Г1</td>
+  						<td>Г1</td>
+  					</tr>
+  					<tr>
+  						<td class="technical__line technical__line--cell-1">Температура применения, °С</td>
+  						<td></td>
+  						<td>-50...+75</td>
+  						<td>-50...+75</td>
+  						<td>-50...+75</td>
+  						<td>-50...+75</td>
+  						<td>-50...+75</td>
+  					</tr>
+				</table>
+				<div class="technical__bottom">
+					<img src="img/bottom-xarakteristiki.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- Блок какие задачи решает -->
+
+	<div class="decides">
+		<div class="decides__content">
+			<table class="decides__table">
+				<caption class="decides__caption">Какие задачи решает?</caption>
+				<tr class="decides__line">
+					<td class="decides__cells decides__cells--cell-1"></td>
+					<td class="decides__cells decides__cells--cell-2"></td>
+					<td class="decides__cells decides__cells--cell-3"></td>
+					<td class="decides__cells decides__cells--cell-4"><p class="decides__text">Потери тепла</p></td>
+					<td class="decides__cells decides__cells--cell-5"></td>
+					<td class="decides__cells decides__cells--cell-6"></td>
+					<td class="decides__cells decides__cells--cell-7"><p class="decides__text">Высокая теплоизоляция, эффективность в суровых погодных условиях.</p></td>
+					<td class="decides__cells decides__cells--cell-8"></td>
+					<td class="decides__cells decides__cells--cell-9"></td>
+				</tr>
+				<tr class="decides__line">
+					<td class="decides__cells decides__cells--cell-1"></td>
+					<td class="decides__cells decides__cells--cell-2"></td>
+					<td class="decides__cells decides__cells--cell-3"></td>
+					<td class="decides__cells decides__cells--cell-4"><p class="decides__text">Проникновение шума</p></td>
+					<td class="decides__cells decides__cells--cell-5"></td>
+					<td class="decides__cells decides__cells--cell-6"></td>
+					<td class="decides__cells decides__cells--cell-7"><p class="decides__text">Индекс снижения приведенного уровня ударного шума — 25 Дб.</p></td>
+					<td class="decides__cells decides__cells--cell-8"></td>
+					<td class="decides__cells decides__cells--cell-9"></td>
+				</tr>
+				<tr class="decides__line">
+					<td class="decides__cells decides__cells--cell-1"></td>
+					<td class="decides__cells decides__cells--cell-2"></td>
+					<td class="decides__cells decides__cells--cell-3"></td>
+					<td class="decides__cells decides__cells--cell-4"><p class="decides__text">Грибок, сырость</td>
+					<td class="decides__cells decides__cells--cell-5"></td>
+					<td class="decides__cells decides__cells--cell-6"></td>
+					<td class="decides__cells decides__cells--cell-7"><p class="decides__text">Гидроизоляционные свойства. Низкое влагопоглощение – 0,1%</p></td>
+					<td class="decides__cells decides__cells--cell-8"></td>
+					<td class="decides__cells decides__cells--cell-9"></td>
+				</tr>
+				<tr class="decides__line">
+					<td class="decides__cells decides__cells--cell-1"></td>
+					<td class="decides__cells decides__cells--cell-2"></td>
+					<td class="decides__cells decides__cells--cell-3"></td>
+					<td class="decides__cells decides__cells--cell-4"><p class="decides__text">Выделение вредных веществ</td>
+					<td class="decides__cells decides__cells--cell-5"></td>
+					<td class="decides__cells decides__cells--cell-6"></td>
+					<td class="decides__cells decides__cells--cell-7"><p class="decides__text">Благодаря радикальной полимеризации стирола PENOBOARD не токсичен, биологически нейтрален, отвечает высоким экологическим стандартам.</p></td>
+					<td class="decides__cells decides__cells--cell-8"></td>
+					<td class="decides__cells decides__cells--cell-9"></td>
+				</tr>
+				<tr class="decides__line">
+					<td class="decides__cells decides__cells--cell-1"></td>
+					<td class="decides__cells decides__cells--cell-2"></td>
+					<td class="decides__cells decides__cells--cell-3"></td>
+					<td class="decides__cells decides__cells--cell-4"><p class="decides__text">Расточительность</p></td>
+					<td class="decides__cells decides__cells--cell-5"></td>
+					<td class="decides__cells decides__cells--cell-6"></td>
+					<td class="decides__cells decides__cells--cell-7"><p class="decides__text">В масштабах государства – снижение энергоемкости производства и экономия традиционных ресурсов, в масштабах каждого отдельного дома – сбережение тепла и экологии помещений, снижение трат на отоплении.</p></td>
+					<td class="decides__cells decides__cells--cell-8"></td>
+					<td class="decides__cells decides__cells--cell-9"></td>
+				</tr>
+				<tr class="decides__line">
+					<td class="decides__cells decides__cells--cell-1"></td>
+					<td class="decides__cells decides__cells--cell-2"></td>
+					<td class="decides__cells decides__cells--cell-3"></td>
+					<td class="decides__cells decides__cells--cell-4"><p class="decides__text">Пожароопасность</p></td>
+					<td class="decides__cells decides__cells--cell-5"></td>
+					<td class="decides__cells decides__cells--cell-6"></td>
+					<td class="decides__cells decides__cells--cell-7"><p class="decides__text">Пожаробезопасность – Г1. PENOBOARD не поддерживает горение после прекращения контакта с открытым огнем.</p></td>
+					<td class="decides__cells decides__cells--cell-8"></td>
+					<td class="decides__cells decides__cells--cell-9"></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+	<!-- Блок сертификаты -->
+	
+	<div class="certificates">
+		<div class="certificates__content">
+			<img class="certificates__img" src="img/fav-xarakteristiki.png" alt="">
+			<span class="certificates__green">Nova</span><span class="certificates__blue">board</span>
+		</div>
+		<div class="certificates__title">Cертификаты качества и премии</div>
+	
+		
+		<div class="certificates__document">			
+			<div class="сertificate__main">
+				<a class="сertificate__link" data-fancybox="gallery" href="img/certificates-6.jpg">
+					<img class="сertificate__img" src="img/certificates-1.jpg" alt="">
+				</a>
+			</div>
+			<div class="сertificate__main">
+				<a class="сertificate__link" data-fancybox="gallery" href="img/certificates-7.jpg">
+					<img class="сertificate__img" src="img/certificates-2.jpg" alt="">
+				</a>
+			</div>
+			<div class="сertificate__main">
+				<a class="сertificate__link" data-fancybox="gallery" href="img/certificates-8.jpg">
+					<img class="сertificate__img" src="img/certificates-3.jpg" alt="">
+				</a>
+			</div>
+			<div class="сertificate__main">
+				<a class="сertificate__link" data-fancybox="gallery" href="img/certificates-9.jpg">
+					<img class="сertificate__img" src="img/certificates-4.jpg" alt="">
+				</a>
+			</div>
+			<div class="сertificate__main">
+				<a class="сertificate__link" data-fancybox="gallery" href="img/certificates-10.jpg">
+					<img class="сertificate__img" src="img/certificates-5.jpg" alt="">
+				</a>
+			</div>
+		</div>
+
+		<div class="certificate__premium">
+			<p>Премия:<br> 100 лучших товаров украины 2010 <small>и</small> 2011</p>
+			<div class="certificate__konkurs">
+				<img src="img/konkurs.jpg" alt="">
+			</div>
+		</div>
+
+	</div>
+
+	<!-- Блок контакты -->
+
+	<div class="contacts">
+		<div class="contacts__content">
+			<div class="contacts__main">
+				<h1 class="contacts__title">Контакты</h1>
+				<p class="contacts__text">ООО «Производственно коммерческая фирма «Элит Пласт»</p>
+				<p class="contacts__text">73000, Украина, г.Херсон, ул Советская, 41-А</p>
+			</div>
+			<div class="contacts__block">
+				<a class="contacts__link" href="tel:+380552123456">тел:+38(0552)123-456,</a>
+				<a class="contacts__link" href="tel:789403">789-403;</a>
+				<a class="contacts__link" href="tel:+380552359214">факс:+38(0552)123-214</a><br/>
+				<a class="contacts__link" href="mailto:info@novaboard.com">e-mail:info@novaboard.com</a>
+			</div>
+		</div>
+	</div>
+	<div class="contacts__map">
+		<iframe class="contacts__frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1369.7323856043263!2d32.61160611575488!3d46.637335142688286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c41ab70369e147%3A0x7c1b1c535f39d7be!2zSVQt0LrQvtC80L_QsNC90LjRjyBXZXpvbQ!5e0!3m2!1sru!2sua!4v1562090159857!5m2!1sru!2sua" allowfullscreen></iframe>
+	</div>
+
+	<!-- Футерф -->
+	
+	<div class="footer">
+		<div class="footer__block">
+			<div class="footer__title">
+				<img class="footer__img" src="img/nova.png" alt="">
+			</div>
+			<p class="footer__text">2015 ©</p>
+			<p class="footer__text">мы в социальных сетях</p>
+			<div class="footer__suptitle">
+				<a class="footer__link" target=_blank href="https://www.instagram.com/wezom.company/"><img class="footer__icons" src="img/icons-in.png" alt=""></a>
+				<a class="footer__link" target=_blank href="https://vk.com/kursywezom"><img class="footer__icons" src="img/icons-vk.png" alt=""></a>
+			</div>
+			<div class="footer__suptext">
+				<a class="footer__wezom" href="https://wezom.com.ua/" target="_blank">Разработка сайта — студия WEZOM</a>
+			</div>
+		</div>
+	</div>
+	
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/swiper.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+</html>
